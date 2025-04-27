@@ -55,3 +55,33 @@ print("Student with the highest total score (row index):", top_student_index)
 # 4. Add 5 bonus points to the third subject (column index 2) for all students
 scores[:, 2] += 5
 print("Updated scores after adding 5 bonus points to third subject:\n", scores)
+
+print(round(4.5))
+
+# Rectangle Area Calculation
+
+# Define the length and width
+length = 12.745
+width = 8.379
+
+# Calculate the area
+area = length * width
+
+# Round the result to 2 decimal places
+rounded_area = round(area, 2)
+
+abs_area = abs(rounded_area)
+# Display the result
+print("The area of the rectangle is:", rounded_area,abs_area)
+
+
+def factorial(x):
+    if x < 0:
+        return "Factorial is not defined"
+    if x == 0 or x == 1:
+        return 1
+    return x * factorial(x - 1)
+
+
+print(factorial(5)) 
+
